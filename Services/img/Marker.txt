@@ -1,0 +1,64 @@
+All Bank: DB, Post Bank, Sparkase, Commerz Bank, BB Bank, +++++++
+var feature = new OpenLayers.Feature.Vector(
+            new OpenLayers.Geometry.Point( 8.383974 ,49.010908 ).transform(epsg4326, projectTo),
+            {description:'Bank Name: Website:'} ,
+            {externalGraphic: 'img/marker2.png', graphicHeight: 25, graphicWidth: 21, graphicXOffset:-12, graphicYOffset:-25  }
+        );    
+    vectorLayer.addFeatures(feature);
+
+All Health Insurance + Stadt Clinick:
+var feature = new OpenLayers.Feature.Vector(
+            new OpenLayers.Geometry.Point( 8.394156 ,49.014736  ).transform(epsg4326, projectTo),
+            {description:'Name: Openinh Hour:'} ,
+            {externalGraphic: 'img/marker3.png', graphicHeight: 25, graphicWidth: 21, graphicXOffset:-12, graphicYOffset:-25  }
+        );    
+    vectorLayer.addFeatures(feature);
+
+
+All Super Markt: at list one of all aldi, lidel, rewe, edeka, peni, norma flow markt location
+var feature = new OpenLayers.Feature.Vector(
+            new OpenLayers.Geometry.Point( 8.394156 ,49.014736  ).transform(epsg4326, projectTo),
+            {description:'Name: Openinh Hour:'} ,
+            {externalGraphic: 'img/marker3.png', graphicHeight: 25, graphicWidth: 21, graphicXOffset:-12, graphicYOffset:-25  }
+        );    
+    vectorLayer.addFeatures(feature);
+
+International office KIT, HSKA
+var feature = new OpenLayers.Feature.Vector(
+            new OpenLayers.Geometry.Point( 8.394156 ,49.014736  ).transform(epsg4326, projectTo),
+            {description:'Name: website: Openinh Hour:'} ,
+            {externalGraphic: 'img/marker3.png', graphicHeight: 25, graphicWidth: 21, graphicXOffset:-12, graphicYOffset:-25  }
+        );    
+    vectorLayer.addFeatures(feature);
+
+One hostel, hotel, Studentwerk, hadiko, + few more student whonheim 
+var feature = new OpenLayers.Feature.Vector(
+            new OpenLayers.Geometry.Point( 8.394156 ,49.014736  ).transform(epsg4326, projectTo),
+            {description:'Name: Openinh Hour:'} ,
+            {externalGraphic: 'img/marker3.png', graphicHeight: 25, graphicWidth: 21, graphicXOffset:-12, graphicYOffset:-25  }
+        );    
+    vectorLayer.addFeatures(feature);
+
+All Mensa in Karlsruhe + Some restaurent, bar, club, 
+var feature = new OpenLayers.Feature.Vector(
+            new OpenLayers.Geometry.Point( 8.394156 ,49.014736  ).transform(epsg4326, projectTo),
+            {description:'Name: Openinh Hour:'} ,
+            {externalGraphic: 'img/marker3.png', graphicHeight: 25, graphicWidth: 21, graphicXOffset:-12, graphicYOffset:-25  }
+        );    
+    vectorLayer.addFeatures(feature);
+
+All KVV ticket center
+var feature = new OpenLayers.Feature.Vector(
+            new OpenLayers.Geometry.Point( 8.394156 ,49.014736  ).transform(epsg4326, projectTo),
+            {description:'Name: Openinh Hour:'} ,
+            {externalGraphic: 'img/marker3.png', graphicHeight: 25, graphicWidth: 21, graphicXOffset:-12, graphicYOffset:-25  }
+        );    
+    vectorLayer.addFeatures(feature);
+
+Rot hous marktplatz, rothaus west
+var feature = new OpenLayers.Feature.Vector(
+            new OpenLayers.Geometry.Point( 8.400604 ,49.009880 ).transform(epsg4326, projectTo),
+            {description:'Name: Opening hour: web:'} ,
+            {externalGraphic: 'img/marker4.png', graphicHeight: 25, graphicWidth: 21, graphicXOffset:-12, graphicYOffset:-25  }
+        );    
+    vectorLayer.addFeatures(feature);
